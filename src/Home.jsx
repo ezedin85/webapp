@@ -1,7 +1,7 @@
 const tele = window.Telegram.WebApp;
 
-tele.mainButton.show()
-tele.mainButton.onClick(()=>tele.showAlert("Hello from Clizle"))
+tele.MainButton.show()
+tele.MainButton.onClick(()=>tele.showAlert("Hello from Clizle"))
 function Home() {
   return (
     <div>
