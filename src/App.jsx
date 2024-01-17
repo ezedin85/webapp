@@ -1,7 +1,7 @@
-import Child from "./Child";
+import Home from "./Home";
 
 function App() {
-  return <Child className="text-red-500" />;
+  <Home/>
 }
 
 export default App;
